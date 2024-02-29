@@ -49,6 +49,7 @@ header {
 header img {
     height: var(--gr70);
     padding-left: 1.618%;
+    width: auto;
 }
 
 .warning {
@@ -129,3 +130,4 @@ p{
     text-indent: var(--fntM);
     margin-bottom: var(--grp2);
 }
+
