@@ -1,0 +1,131 @@
+:root {
+    --wrd: #FFB3B3;
+    --white: #ffffff;
+    --groL: 76.00%;
+    --groS: 76%;
+    --gr70: 76px;
+    --fntM: 46.97px;
+    --fntMS: 29.03px;
+    --fntS: 17.94px;
+    --gr11: 11.089px;
+    --gr122: 122.966px;
+    --grp29: 29.030%;
+    --grp46: 46.97%;
+    --grp76: 76%;
+    --grp17: 17.942%;
+    --grp6: 6.854%;
+    --grp2: 2.618%;
+    --grp11: 11.089%;
+    
+    
+    --bg1: #EDEDED;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    font-family: "Inter", sans-serif;
+  }
+
+header {
+    width: 100%;
+    padding: 1.618dvh 0;
+    display: block;
+    position: fixed;
+    top:0;
+    background-color: white;
+}
+
+header img {
+    height: var(--gr70);
+    padding-left: 1.618%;
+}
+
+.warning {
+    background: var(--wrd);
+    display: flex;
+    margin-top: calc(var(--gr70) + var(--fntMS));
+}
+
+.warning .v1,
+.warning .v2 {
+    display: inline-block;
+
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+.warning .v1 {
+    width: var(--grp29);
+    text-align: center;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--fntM);
+    font-weight:100;
+
+    border-right: .618px solid rgba(255, 84, 84, 0.68);
+}
+
+.warning .v2 {
+    width: var(--groL);
+    padding: var(--gr11) 0;
+}
+
+.warning .v2 img{
+    width: var(--gr122);
+    display: inline-block;
+}
+
+.warning .v2 span{
+    width: var(--groS);
+    display: inline-block;
+}
+
+.warning .v2 span .hd{
+    width: 100%;
+    font-size: var(--fntMS);
+    font-weight: 400;
+    padding-bottom: ;
+}
+
+.warning .v2 span .desc{
+    width: 100%;
+    font-size:var(--fntS);
+    font-weight: 300;
+}
+
+article{
+    width: var(--grp76);
+    margin: auto;
+
+    background-color: var(--bg1);
+    padding: var(--grp2) var(--grp6);
+}
+
+article h1{
+    font-size: var(--fntM);
+    font-weight: 700;
+    text-align: center;
+}
+
+article img{
+    width: var(--grp76);
+    margin: var(--grp2) var(--grp11);
+}
+
+p{
+    text-indent: var(--fntM);
+    margin-bottom: var(--grp2);
+}
