@@ -8,6 +8,8 @@ description:
 blogTitle: Title of attraction Lorum Ipsum.
 blogImage: https://www.w3schools.com/css/img_5terre_wide.jpg
 blogAlt: blog image
+
+comments: true
 ---
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisl ac lorem pellentesque congue. Etiam laoreet justo eu velit blandit facilisis. Maecenas nec nisl venenatis, fringilla justo vel, luctus felis. Etiam id libero rutrum metus aliquet venenatis. Suspendisse vitae ex.
