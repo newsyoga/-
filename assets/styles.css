@@ -124,10 +124,17 @@ article h1{
 article img{
     width: var(--grp76);
     margin: var(--grp2) var(--grp11);
+    height: auto;
 }
 
 p{
     text-indent: var(--fntM);
     margin-bottom: var(--grp2);
+}
+
+#disqus_thread{
+    width: var(--groL);
+    margin: auto;
+    padding:  var(--gr70) 0;
 }
 
