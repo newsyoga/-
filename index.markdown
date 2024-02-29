@@ -6,7 +6,7 @@ author:
 description:
 
 blogTitle: Title of attraction Lorum Ipsum.
-blogImage: https://www.w3schools.com/css/img_5terre_wide.jpg
+blogImage: 
 blogAlt: blog image
 
 comments: true
