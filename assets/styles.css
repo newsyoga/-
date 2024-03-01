@@ -117,7 +117,7 @@ header img {
     font-weight: 300;
 }
 
-article, .cmtLnk{
+article, .cmtLnk, .mrblg{
     width: var(--grp76);
     margin: auto;
 
@@ -254,5 +254,5 @@ h2{
 }
 
 .mrblg{
-    
+
 }
