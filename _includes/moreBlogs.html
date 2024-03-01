@@ -1,8 +1,14 @@
 <div class="mrblg">
     {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
+    {% assign counter = forloop.index %}
+    {% if counter <= 3 %}
+    <a href="{{site.url}}{{ post.url }}"><li>
+        <span class="l1"><img src="{{post.blog.Image}}"></span><span class="l2">
+      <h3>{{ post.story.heading }}</h3>
+      {{ post.story.description }}
+    </span>
     </li>
+    </a>
+    {% endif %}
     {% endfor %}
 </div>

@@ -3,10 +3,17 @@ date:   2024-02-29 09:56:00 +0530
 categories: jekyll gogo
 
 layout: blog
-title: newsyoga | strech your mind
-keywords: hello B
-author:
-description:
+title: Welcome to my blogging site!!! HOME
+
+story:
+    heading: Look how this kid become Rich
+    description: Xyz Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisl ac lorem pellentesque congue. Etiam laoreet justo eu velit blandit facilisis. Maecenas nec nisl venenatis, fringilla justo vel, luctus felis. Etiam id libero rutrum metus aliquet venenatis. Suspendisse vitae ex.
+
+seo:
+    title: newsyoga | strech your mind
+    keywords: hello B
+    author:
+    description:
 
 warn:
     Img: https://i0.wp.com/img.paisawapas.com/ovz3vew9pw/2023/10/03162502/Durga-Maa-Face-Drawing.jpg?resize=354%2C316&ssl=1
@@ -37,7 +44,7 @@ comment:
         name: Roe Biden
         cmt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisl ac lorem pellentesque congue. Etiam laoreet justo eu velit blandit facilisis. Maecenas nec nisl venenatis, fringilla justo vel, luctus felis. Etiam id libero rutrum metus aliquet venenatis. Suspendisse vitae ex.
 
-
+test: hello
 
 post:
     - user:

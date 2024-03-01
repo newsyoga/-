@@ -17,6 +17,8 @@
     --grp2: 2.618%;
     --grp11: 11.089%;
     --grp1: 1.618%;
+    --grp122: 122.966%;
+    
     
     
     --bg1: #EDEDED;
@@ -117,7 +119,7 @@ header img {
     font-weight: 300;
 }
 
-article, .cmtLnk, .mrblg{
+article, .cmtLnk, .mrblg, .lkSoc{
     width: var(--grp76);
     margin: auto;
 
@@ -166,7 +168,7 @@ h2{
 
 .cmtLnk h2{
     padding-bottom: var(--gr11);
-    border-bottom: 0.1px solid rgba(5, 5, 15, 0.68);
+    border-bottom: 0.1px solid rgba(5, 5, 15, 0.088);
 }
 
 .cmtBlock{
@@ -199,7 +201,7 @@ h2{
     margin-right: var(--grp2);
 }
 
-.cmtLnk button{
+.cmtLnk button, .lkSoc button{
     display: block;
     margin: auto;
     font-size: var(--fntS);
@@ -253,6 +255,81 @@ h2{
     margin-right: var(--grp2);
 }
 
-.mrblg{
+.mrblg a{
+    text-decoration: inherit;
+    color: inherit;
+}
 
+.mrblg a h3{
+    font-size: var(--fntMS);
+    font-weight: 200;
+    margin-bottom: var(--grp1);
+}
+
+.mrblg li{
+    list-style-type: none;
+    margin: var(--grp6) auto;
+    display: flex;
+    
+}
+
+.mrblg li .l1 img{
+    width: 100%;
+}
+
+.mrblg li .l2{
+    width: 70%;
+    display: block;
+    margin-left: var(--grp11);
+}
+
+.mrblg li .l1{
+    width: var(--grp29);
+}
+
+footer {
+    width: 100%;
+}
+
+.lkSoc a img{
+    height: var(--grp6);
+    width: var(--grp6);
+    aspect-ratio: 1/1;
+    border-radius: var(--gr122);
+    margin: auto;
+    margin-bottom: var(--grp6);
+}
+
+.lkSoc span {
+    display: block;
+    text-align: center;
+}
+
+.lkSoc .mailc{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lkSoc button{
+    margin: 0;
+    margin-left: var(--grp2);
+}
+
+.lkSoc .mailc a{
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 200;
+}
+
+.lkSoc .mailc span{
+    font-weight: 400;
+}
+
+.lkSoc {
+    border-bottom: 0.1px solid rgba(5, 5, 15, 0.88);
 }

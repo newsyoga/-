@@ -1,9 +1,12 @@
 ---
 layout: blog
-title: newsyoga | strech your mind
-keywords: hello B
-author:
-description:
+title: Welcome to my blogging site!!! HOME
+
+seo:
+    title: newsyoga | strech your mind
+    keywords: hello B
+    author:
+    description:
 
 warn:
     Img: https://i0.wp.com/img.paisawapas.com/ovz3vew9pw/2023/10/03162502/Durga-Maa-Face-Drawing.jpg?resize=354%2C316&ssl=1
