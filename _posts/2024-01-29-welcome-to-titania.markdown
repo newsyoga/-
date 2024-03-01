@@ -1,4 +1,7 @@
 ---
+date:   2024-02-29 09:56:00 +0530
+categories: jekyll gogo
+
 layout: blog
 title: newsyoga | strech your mind
 keywords: hello B

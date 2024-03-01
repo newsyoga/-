@@ -1,0 +1,13 @@
+
+<div class="mediaPosts">
+    {% for user in page.post %}
+    <div class="cmtBlock pst">
+        <img src="{{user.user.image}}" alt="news yoga user {{user.user.name}}'s post">
+        <span>
+            <div class="nm"><img class="proimg" src="{{user.user.pimage}}">{{user.user.name}}</div>
+            <div class="cmt">{{user.user.cmt}}
+            </div>
+        </span>
+    </div>
+    {% endfor %}
+</div>

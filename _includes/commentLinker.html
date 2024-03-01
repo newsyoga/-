@@ -1,0 +1,16 @@
+<div class="cmtLnk">
+    <h2>Comments</h2>
+
+{% for user in page.comment %}
+    <div class="cmtBlock">
+        <img class="proImgP" src="{{user.info.image}}" alt="news yoga user {{user.info.name}}'s picture">
+        <span>
+            <div class="nm">{{user.info.name}}</div>
+            <div class="cmt">{{user.info.cmt}} 
+            </div>
+        </span>
+    </div>
+    {{user.id}}
+{% endfor %}
+
+</div>
