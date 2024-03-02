@@ -1,0 +1,10 @@
+<div class="mrblg">
+    <h2 class="blogs_in">Blogs</h2>
+<ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{site.url}}{{ post.url }}"><h3 class="hd3">{{ post.title }}</h3></a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

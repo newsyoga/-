@@ -89,7 +89,7 @@ header img {
     font-size: var(--fntM);
     font-weight:100;
 
-    border-right: .618px solid rgba(255, 84, 84, 0.68);
+    border-right: .618px solid rgba(255, 84, 84, 0.451);
 }
 
 .warning .v2 {
@@ -347,6 +347,14 @@ footer {
     padding: var(--grp1);
 }
 
+.blogs_in{
+    font-weight: 400;
+}
+
+.mrblg a .hd3{
+    font-size: var(--fntS);
+}
+
 @media (max-width: 664px) {
     header img {
         height: var(--fntM);
@@ -367,7 +375,7 @@ footer {
 
     .warning .v1 {
         border-right: none;
-        border-bottom: .618px solid rgba(255, 84, 84, 0.68);
+        border-bottom: .618px solid rgba(255, 84, 84, 0.436);
         padding: var(--grp2);
     }
     
