@@ -22,17 +22,14 @@ blog:
 
 comment:
     - info:
-        id: 6
         image: https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg
         name: Shawn
         cmt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisl ac lorem pellentesque congue. Etiam laoreet justo eu velit blandit facilisis. Maecenas nec nisl venenatis, fringilla justo vel, luctus felis. Etiam id libero rutrum metus aliquet venenatis. Suspendisse vitae ex.  
     - info:
-        id: 7
         image: https://i.pinimg.com/736x/d5/59/bd/d559bd5ffda47d35f8d5ce8de8d6f325.jpg
         name: Jessica
         cmt: Yeah very cool..
     - info:
-        id: 9
         image: https://images.unsplash.com/photo-1466112928291-0903b80a9466?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D
         name: Roe Biden
         cmt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisl ac lorem pellentesque congue. Etiam laoreet justo eu velit blandit facilisis. Maecenas nec nisl venenatis, fringilla justo vel, luctus felis. Etiam id libero rutrum metus aliquet venenatis. Suspendisse vitae ex.

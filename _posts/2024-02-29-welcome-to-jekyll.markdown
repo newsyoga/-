@@ -9,6 +9,9 @@ story:
     heading: "Welcome to Jekyll!"
     description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
+blog:
+    Title: Title of attraction Lorum Ipsum.
+    Image: https://preview.redd.it/some-israeli-nature-photos-from-my-gallery-v0-ri1tjargg2gc1.jpg?width=640&crop=smart&auto=webp&s=fd881d9ea95f39797e9aba2ad6ad784a9e47f3b7
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
