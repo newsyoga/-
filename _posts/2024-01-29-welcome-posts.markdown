@@ -1,6 +1,6 @@
 ---
 date:   2024-02-29 09:56:00 +0530
-categories: 
+categories: health
 
 layout: blog
 title: How is cooking oil killing you
