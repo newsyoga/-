@@ -2,15 +2,15 @@
     <h2>Comments</h2>
 
 {% for user in page.comment %}
-    <div class="cmtBlock">
-        <img class="proImgP" src="{{user.info.image}}" alt="news yoga user {{user.info.name}}'s picture">
+                {% assign bst = forloop.index  | minus: 1 %}
+                {% assign tst = page.comment[bst].user.id %}
+                <div class="cmtBlock">
+        <img class="proImgP" src="{{site.url}}{{site.data.users.list[tst].user.image}}" alt="news yoga user {{site.data.users.list[tst].user.name}}'s profile picture">
         <span>
-            <div class="nm">{{user.info.name}}</div>
-            <div class="cmt">{{user.info.cmt}} 
-            </div>
+            <div class="nm">{{site.data.users.list[tst].user.name}}</div>
+            <div class="cmt">{{page.comment[bst].user.cmt}} </div>
         </span>
     </div>
-    {{user.id}}
 {% endfor %}
-    <button onclick="window.open('http://google.com','_blank')"> more comments</button>
+    <button onclick="window.open('{{page.redDiss}}')"> more comments</button>
 </div>

@@ -1,9 +1,38 @@
+{% comment %}
+<!--
 <div class="warning">
     <span class="v1">Warning</span><span class="v2">
-        <img src="{{page.warn.Img}}" alt="post image">
+        <img src="{{site.data.info.warn.Img}}" alt="post image">
         <span>
-            <div class="hd">{{page.warn.Title}}</div>
-            <div class="desc">{{page.warn.desc}}</div>
+            <div class="hd">{{site.data.info.warn.Title}}</div>
+            <div class="desc">{{site.data.info.warn.desc}}</div>
         </span>
     </span>
 </div>
+
+
+{% for post in site.posts limit:1 %}
+... Show the post ...
+{% endfor %} 
+-->
+hello comment
+{% endcomment %}
+{% for post in site.posts limit:1 %}
+<div class="warning">
+    <a class="anc" href="{{site.url}}{{ post.url }}"> 
+    <span class="v1">Warning</span><span class="v2">
+            <img src="{{post.blog.Image}}" alt="post image">
+            <span>
+                <div class="hd">{{post.story.heading}}</div>
+                <div class="desc">{{post.story.description}}</div>
+            </span>
+    </span>
+    </a>
+</div>
+{% endfor %}
+
+<!--
+
+        <a href="{{site.url}}{{ post.url }}"> 
+
+-->

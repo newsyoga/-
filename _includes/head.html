@@ -1,45 +1,22 @@
 <head>
-    <meta charset="utf-8" />
-    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content="width=device-width,height=device-height, initial-scale=1, shrink-to-fit=yes">
-
-    <!--theme colors -->
-    <meta name="theme-color" content="" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-
-    <!--Basic meta info -->
-    <meta name="keywords" content="{{ page.keywords }}">
-    <meta name="author" content="{{ page.author }}" />
-    <meta name="description" content="{{ page.description }}">
-
-    <!--OpenGraph meta -->
-    <meta property="og:description" content=""/>
-    <meta property="og:title" content="" />
-    <meta property="og:image" content=""/>
-    <meta property="og:url" content="" />
-
-    <!--meta for twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:creator" content="@bhupeshimself">
-    <meta name="twitter:title" content="">
-    <meta name="twitter:image" content="logo.png">
-    <meta name="twitter:site" content="@bhupeshimself">
-    <meta name="twitter:description" content="">
-
-    <!--Favicon-->
-    <link rel="shortcut icon" type="image/png" href="logo.png"/>
-
-    <!-- Manifest for PWA -->
-    <link rel="manifest" href="manifest.json">
-	<title>{{ page.seo.title }}</title>
-
-
-    <!--links-->
+{% comment %}
+<link rel="manifest" href="manifest.json">
+{% endcomment %}
+    {% seo %}
     <link href="{{site.url}}/assets/styles.css"  rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="preload" as="style" onload="this.rel='stylesheet'">
+    <link rel="shortcut icon" type="image/webp" href="{{site.url}}/assets/logoImg.WebP"/>
+    <meta name="twitter:image" content="{{site.url}}{{site.twitter.image}}">
+    <meta name="twitter:description" content="{{site.twitter.description}}">
+    <meta property="og:image" content="{{site.url}}{{site.openGraph.image}}">
+    <meta name="keywords" content="{{site.data.info.pageKeywords}}{{page.title}},{{ page.seo.keywords }}">
+    <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content="width=device-width,height=device-height, initial-scale=1, shrink-to-fit=yes">
+    <meta name="theme-color" content="{{site.data.info.theme.clr}}" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 </head>

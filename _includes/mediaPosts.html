@@ -1,13 +1,17 @@
 
 <div class="mediaPosts">
     {% for user in page.post %}
+                {% assign bst = forloop.index  | minus: 1 %}
+                {% assign tst = page.comment[bst].user.id | minus: 1 %}
     <div class="cmtBlock pst">
-        <img src="{{user.user.image}}" alt="news yoga user {{user.user.name}}'s post">
+        <a href="{{user.user.link}}">
+        <img src="{{site.url}}/assets/post/{{page.postid}}/p{{forloop.index}}.webP" alt="news yoga user {{user.user.name}}'s post">
         <span>
-            <div class="nm"><img class="proimg" src="{{user.user.pimage}}">{{user.user.name}}</div>
+            <div class="nm"><img class="proimg" src="{{site.url}}{{site.data.users.list[tst].user.image}}"  alt="news yoga user {{site.data.users.list[tst].user.name}}'s profile picture">{{site.data.users.list[tst].user.name}}</div>
             <div class="cmt">{{user.user.cmt}}
             </div>
         </span>
+        </a>
     </div>
     {% endfor %}
 </div>

@@ -1,0 +1,15 @@
+
+{
+    "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+    "name": "NewsYoga | strech your calm mind",
+    "background_color": "#EDEDED",
+    "theme_color": "#FFB3B3",
+    "start_url": "/",
+    "display": "standalone",
+    "description": "Welcome to the ultimate hub of wellness wizardry! Dive into a whirlwind of health hacks and mind-blowing medical marvels as we catapult you into a dimension where broccoli is as thrilling as a rollercoaster ride! Get ready to unlock the secrets of the human body, unleash your inner health guru, and conquer the universe of vitality! From mind-bending fitness tips to heart-pounding nutritional revelations, this website is your passport to a realm where every click brings you closer to the pinnacle of well-being. Brace yourself for a wild ride of wellness wonders!",
+    "icons": [{
+      "src": "assets/logoImg.WebP",
+      "sizes":"any",
+      "type": "image/webp"
+    }]
+  }

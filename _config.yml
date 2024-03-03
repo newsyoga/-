@@ -1,13 +1,11 @@
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
+title: newsyoga blogging
+email: shantanup410@gmail.com
+description: >-
+  HOME Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://newsyoga.github.io/-" # the base hostname & protocol for your site, e.g. http://example.com
- # the base hostname & protocol for your site, e.g. http://example.com
-#url: ""
+baseurl: ""
+url: "https://newsyoga.github.io/-" 
 twitter_username: jekyllrb
 github_username:  jekyll
 
@@ -25,3 +23,14 @@ compress_html:
   blanklines: false
   ignore:
   envs: []
+
+author: Shantanu Pawar
+twitter:
+  card: summary
+  creator: "@bhim"
+  title: "test"
+  site: "test"
+  description: "test" #not included by plugin
+  username: benbalter #not included by plugin
+  image: "/assets/logoImg.WebP" #not included by plugin
+

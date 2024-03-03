@@ -104,6 +104,7 @@ header img {
     margin: 0 var(--grp2) ;
     border-radius: var(--grp6);
     object-fit: cover;
+    aspect-ratio: 1/1;
 }
 
 .warning .v2 span{
@@ -121,6 +122,12 @@ header img {
     width: 100%;
     font-size:var(--fntS);
     font-weight: 300;
+}
+
+.warning .anc{
+    display: flex;
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
 }
 
 article, .cmtLnk, .mrblg, .lkSoc{
@@ -142,6 +149,7 @@ article img{
     margin: var(--grp2) auto;
     height: var(--grh46);
     display: block;
+    object-fit: cover;
 }
 
 article figure{
@@ -259,7 +267,7 @@ h2{
     margin-right: var(--grp2);
 }
 
-.mrblg a{
+.mrblg a, .pst a{
     text-decoration: inherit;
     color: inherit;
 }
@@ -279,6 +287,8 @@ h2{
 
 .mrblg li .l1 img{
     width: 100%;
+    aspect-ratio: 2/1.618;
+    object-fit: cover;
 }
 
 .mrblg li .l2{
@@ -362,6 +372,10 @@ footer {
 
     .warning {
         margin-top: var(--gr122);
+        flex-direction: column;
+    }
+
+    .warning .anc{
         flex-direction: column;
     }
 
