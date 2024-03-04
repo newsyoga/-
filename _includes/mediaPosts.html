@@ -2,7 +2,7 @@
 <div class="mediaPosts">
     {% for user in page.post %}
                 {% assign bst = forloop.index  | minus: 1 %}
-                {% assign tst = page.comment[bst].user.id | minus: 1 %}
+                {% assign tst = page.post[bst].user.id | minus: 0 %}
     <div class="cmtBlock pst">
         <a href="{{user.user.link}}">
         <img src="{{site.url}}/assets/post/{{page.postid}}/p{{forloop.index}}.webP" alt="news yoga user {{user.user.name}}'s post">

@@ -1,8 +1,8 @@
 <article>
     <h1>{{page.blog.Title}}</h1>
     <figure>
-        <img src="{{page.blog.Image}}" alt="{{page.blog.Alt}}">
-        <figcaption>{{page.blog.figureCaption}}</figcaption>
+        <img src="{{site.url}}/assets/postassets/{{page.postid}}/thumbnail.WebP" alt="{{page.blog.Alt}}">
+        <figcaption>image: {{page.blog.figureCaption}}.</figcaption>
     </figure>
     <div class="cntHld">
         {{content}}

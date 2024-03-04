@@ -3,7 +3,7 @@
     {% assign counter = forloop.index %}
     {% if counter <= 3 %}
     <a href="{{site.url}}{{ post.url }}"><li>
-        <span class="l1"><img src="{{post.blog.Image}}"></span><span class="l2">
+        <span class="l1"><img src="{{site.url}}/assets/postassets/{{page.postid}}/thumbnailglobal.WebP"></span><span class="l2">
       <h3>{{ post.story.heading }}</h3>
       {{ post.story.description }}
     </span>

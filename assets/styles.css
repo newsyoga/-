@@ -365,6 +365,10 @@ footer {
     font-size: var(--fntS);
 }
 
+em{
+    font-weight: 600;
+}
+
 @media (max-width: 664px) {
     header img {
         height: var(--fntM);

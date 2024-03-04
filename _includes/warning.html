@@ -21,7 +21,7 @@ hello comment
 <div class="warning">
     <a class="anc" href="{{site.url}}{{ post.url }}"> 
     <span class="v1">Warning</span><span class="v2">
-            <img src="{{post.blog.Image}}" alt="post image">
+            <img src="{{site.url}}/assets/postassets/{{page.postid}}/thumbnailglobal.WebP{% comment %} {{post.blog.Image}} {% endcomment %}" alt="post image">
             <span>
                 <div class="hd">{{post.story.heading}}</div>
                 <div class="desc">{{post.story.description}}</div>
@@ -30,9 +30,3 @@ hello comment
     </a>
 </div>
 {% endfor %}
-
-<!--
-
-        <a href="{{site.url}}{{ post.url }}"> 
-
--->
