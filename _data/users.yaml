@@ -1,49 +1,49 @@
 
 list:
     - user:
-        image: /assets/userpic/u1.Webp
+        image: /assets/userpic/u1.WebP
         name: Maverick Storm
         age: "young"
         gender: "man"
         mood: "crazy"
         mail: shantanuaftertenth@gmail.com
     - user:
-        image: /assets/userpic/u2.Webp
+        image: /assets/userpic/u2.WebP
         name: Ethan Parker
         age: "young"
         gender: "man"
         mood: "wise"
         mail: parkerethan877@gmail.com
     - user:
-        image: /assets/userpic/u3.Webp
+        image: /assets/userpic/u3.WebP
         name: Rusty Wilder
         age: "old"
         gender: "man"
         mood: "crazy"
         mail: rustywilder7@gmail.com
     - user:
-        image: /assets/userpic/u4.Webp
+        image: /assets/userpic/u4.WebP
         name: Shawn P
         age: "young"
         gender: "man"
         mood: "crazy"
         mail: shantanup410@gmail.com
     - user:
-        image: /assets/userpic/u5.Webp
+        image: /assets/userpic/u5.WebP
         name: Eleanor Wise
         age: "old"
         gender: "women"
         mood: "wise"
         mail: shawn84p@gmail.com
     - user:
-        image: /assets/userpic/u6.Webp
+        image: /assets/userpic/u6.WebP
         name: Elijah Harmony
         age: "old"
         gender: "man"
         mood: "wise"
         mail: jyotirandhirpawar01@gmail.com
     - user:
-        image: /assets/userpic/u7.Webp
+        image: /assets/userpic/u7.WebP
         name: Madison Wilder
         age: "young"
         gender: "women"
