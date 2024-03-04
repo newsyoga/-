@@ -5,7 +5,8 @@ categories: health
 layout: blog
 title: only SAFE cooking oil, you don't know
 
-description: Post description visible on GOOGLE Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisl ac lorem pellentesque congue. Etiam laoreet justo eu velit blandit facilisis. Maecenas nec nisl venenatis, fringilla justo vel, luctus felis. Etiam id libero rutrum metus aliquet venenatis. Suspendisse vitae ex.
+description: Vegetable oil undergoes hydrogenation to maintain food taste and smell stability Even small doses of hydrogenated vegetable oil can pose dangers. This process solidifies liquid unsaturated fat, meeting consumer demand for longer shelf life. However, it leads to excessive trans fatty acid production, which is harmful.
+
 
 seo:
     title: newsyoga | strech your mind

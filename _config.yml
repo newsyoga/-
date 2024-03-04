@@ -1,14 +1,13 @@
-title: newsyoga blogging
+title: newsyoga.blog
 email: shantanup410@gmail.com
 description: >-
-  HOME Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Finally, some real health blogs exposing the truth! 
+  Sick of all the fluff and nonsense out there. Keep it real, folks!
 baseurl: ""
 # url: "https://newsyoga.github.io/-" 
-url: "https://newsyoga.blog/"
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://newsyoga.blog"
+twitter_username: ShantanuP41
+github_username: newsyoga
 
 # Build settings
 theme: minima
@@ -28,10 +27,10 @@ compress_html:
 author: Shantanu Pawar
 twitter:
   card: summary
-  creator: "@bhim"
-  title: "test"
+  creator: "ShantanuP41"
+  title: "jekyllrb"
   site: "test"
   description: "test" #not included by plugin
-  username: benbalter #not included by plugin
+  username: ShantanuP41 #not included by plugin
   image: "/assets/logoImg.WebP" #not included by plugin
 

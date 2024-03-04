@@ -8,9 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="preload" as="style" onload="this.rel='stylesheet'">
     <link rel="shortcut icon" type="image/webp" href="{{site.url}}/assets/logoImg.WebP"/>
-    <meta name="twitter:image" content="{{site.url}}{{site.twitter.image}}">
-    <meta name="twitter:description" content="{{site.twitter.description}}">
-    <meta property="og:image" content="{{site.url}}{{site.openGraph.image}}">
+    <meta name="twitter:image" content="{{site.url}}/assets/postassets/{{page.postid}}/thumbnailglobal.WebP">
+    <meta name="twitter:description" content="{{page.story.description | truncate: 199 }}">
+    <meta property="og:image" content="{{site.url}}/assets/postassets/{{page.postid}}/thumbnailglobal.WebP">
     <meta name="keywords" content="{{site.data.info.pageKeywords}}{{page.title}},{{ page.seo.keywords }}">
     <meta charset="utf-8" />
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -19,6 +19,9 @@
     <meta name="theme-color" content="{{site.data.info.theme.clr}}" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="googlebot" content="all">
+    <meta name="googlebot-news" content="nosnippet">
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GYPCNGJKRN"></script>
