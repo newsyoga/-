@@ -6,7 +6,7 @@ description: >-
   Google search results) and in your feed.xml site description.
 baseurl: ""
 # url: "https://newsyoga.github.io/-" 
-url: "https://newsyoga.blog/""
+url: "https://newsyoga.blog/"
 twitter_username: jekyllrb
 github_username:  jekyll
 
