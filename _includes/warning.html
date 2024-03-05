@@ -17,8 +17,12 @@
 -->
 hello comment
 {% endcomment %}
+
+
 {% for post in site.posts limit:1 %}
+
 <div class="warning">
+    {% if post.postid != page.postid %}
     <a class="anc" href="{{site.url}}{{ post.url }}"> 
     <span class="v1">Warning</span><span class="v2">
             <img src="{{site.url}}/assets/postassets/{{post.postid}}/thumbnailglobal.WebP{% comment %} {{post.blog.Image}} {% endcomment %}" alt="post image">
@@ -28,5 +32,6 @@ hello comment
             </span>
     </span>
     </a>
+    {% endif %}
 </div>
 {% endfor %}
