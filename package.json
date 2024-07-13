@@ -1,0 +1,11 @@
+{
+  "name": "-",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/newsyoga/-.git",
+  "author": "Shantanu Pawar <shpawar410@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@builder.io/partytown": "^0.10.2"
+  }
+}
