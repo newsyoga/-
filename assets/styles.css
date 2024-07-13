@@ -37,6 +37,10 @@ article h1 {
     text-align: center
 }
 
+header {
+    background-color: #FFB3B3;
+}
+
 :root {
     --wrd: #FFB3B3;
     --white: #ffffff;
@@ -455,6 +459,27 @@ footer {
     font-size: var(--fntS)
 }
 
+.mrblg {
+    margin-top: var(--grp11);
+}
+
+@media (max-width:1035px) {
+    /* 1035 PX */
+        .img-article{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+@media (max-width:961px) {
+/* 961 PX */
+
+    .mrblg{
+        margin-top: var(--grp17);
+    }
+}
+
+
 @media (max-width:664px) {
 
     .mediaPosts,
@@ -465,7 +490,22 @@ footer {
     }
 
     header img {
-        height: var(--fntM)
+        height: auto; /*(--fntM); */
+        /* height: var(--gr70);
+        padding-left: 1.618%;
+        width: auto */
+    }
+
+    header img:first-child {
+        width: var(--grp29);
+    }
+
+    header img:last-child {
+        width: var(--grp46);
+    }
+
+    .mrblg {
+        margin-top: var(--grp29);
     }
 
     .warning {
@@ -500,9 +540,6 @@ footer {
         line-height: normal;
     }
 
-    article img {
-        height: auto
-    }
 
     .cmtBlock .proImgP {
         height: var(--grp17);
@@ -556,4 +593,5 @@ footer {
     body {
         min-width: var(--mnWd)
     }
+
 }

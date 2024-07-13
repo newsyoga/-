@@ -6,11 +6,11 @@ layout: compress
 {% include head.html %}
 <body>
     {% include header.html %}
-    {% include warning.html %}
+    {% include warning.html %} 
     {% include blogContent.html %}
-    {% include commentLinker.html %}
-    {% include mediaPosts.html %}
+    {% comment %} {% include commentLinker.html %} {% endcomment %}
+    {% comment %} {% include mediaPosts.html %} {% endcomment %}
     {% include share.html %}
-    {% include moreBlogs.html %}
+    {% comment %} {% include moreBlogs.html %} {% endcomment %}
   </body>
 </html>
