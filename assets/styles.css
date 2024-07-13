@@ -465,11 +465,13 @@ footer {
 
 @media (max-width:1035px) {
     /* 1035 PX */
-        .img-article{
-            width: 100%;
-            height: auto;
-        }
+    .img-article{
+        width: 100%;
+        height: auto;
     }
+
+}
+
 
 @media (max-width:961px) {
 /* 961 PX */
@@ -592,6 +594,11 @@ footer {
 
     body {
         min-width: var(--mnWd)
+    }
+
+    
+    body {
+        background-color: var(--bg1);
     }
 
 }
